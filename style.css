@@ -6,7 +6,7 @@ body {
   color: white;
 }
 
-/* FIRST PAGE */
+
 .intro-bg {
   background: linear-gradient(135deg, #667eea, #764ba2);
 }
@@ -37,7 +37,7 @@ button {
   margin-bottom: 20px;
 }
 
-/* APP PAGE */
+
 #app {
   display: none;
 }
