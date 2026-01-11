@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MindBridge – You Are Not Alone</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="intro-bg">
+
+<!-- NAME PAGE -->
+<div id="nameBox">
+  <h1>MindBridge 🌉</h1>
+  <p class="subtitle">
+    Every feeling matters. Before we begin, tell me your name.
+  </p>
+
+  <input type="text" id="username" placeholder="Enter your name">
+  <br>
+  <button onclick="startApp()">Continue</button>
+</div>
+
+<!-- APP PAGE -->
+<div id="app">
+  <h2 id="welcome"></h2>
+
+  <div class="thought">
+    🌱 <strong>
+    You are not weak for feeling deeply.
+    Every emotion is proof that you are alive, learning, and human.
+    </strong>
+  </div>
+
+  <textarea id="userInput" placeholder="Tell me how you feel..."></textarea>
+  <br>
+  <button onclick="respond()">Talk to MindBridge</button>
+
+  <div id="response"></div>
+
+  <button class="trackBtn" onclick="toggleGraph()">Track My Emotions</button>
+
+  <div id="chartBox">
+    <canvas id="emotionChart"></canvas>
+  </div>
+
+  <footer>
+    Designed & Developed by Naveen Kumar © 2026  
+    <br>All Rights Reserved – MindBridge
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
